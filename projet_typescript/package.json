@@ -1,0 +1,16 @@
+{
+  "name": "hogwarts-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projet TypeScript sur le theme de Hogwarts (generics, decorateurs, type guards).",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
